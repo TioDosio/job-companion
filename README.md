@@ -46,7 +46,7 @@ Browser Extension
       ├── ChatGPT/LLM API → Provides job insights & writing help
       │
       └── Google Sheets API → Stores job applications
-
+```
 ## 🛠️ Tech Stack
 
 - Browser extension APIs (Chrome / Firefox / Edge)
