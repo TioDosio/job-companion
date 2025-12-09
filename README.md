@@ -82,6 +82,3 @@ Browser Extension
 ### 📄 License
 
 - MIT License — free to use, modify, and distribute.
-
-
-Want me to add screenshots, badges, a logo, or installation instructions?
