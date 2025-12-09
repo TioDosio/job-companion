@@ -1,53 +1,42 @@
-🚀 JobSearch AI Companion – Browser Extension
+# 🚀 JobSearch AI Companion – Browser Extension
 
 Your smart assistant for finding job opportunities, understanding roles, optimizing your CV/cover letter, and keeping track of every position you apply for — all in one place.
 
-✨ Features
-🔍 Job Insights on Any Page
+---
 
+## ✨ Features
+
+### 🔍 **Job Insights on Any Page**
 When you visit a job posting, the extension analyzes the content and gives you:
+- 💼 **Role summary**
+- 💰 **Estimated salary range**
+- 🧩 **Required skills & key responsibilities**
+- 🏆 **Important keywords** to include in your CV and cover letter
 
-💼 Role summary
+### 🤖 **AI-Powered Companion**
+Powered by the ChatGPT API (or any compatible LLM API), the AI:
+- ✏️ Suggests **CV bullet points** tailored to the job
+- 📨 Generates a **personalized cover letter**
+- 📊 Provides **competitiveness insights** and how well you match the role
 
-💰 Estimated salary range
-
-🧩 Required skills & key responsibilities
-
-🏆 Important keywords to include in your CV and cover letter
-
-🤖 AI-Powered Companion
-
-Powered by the ChatGPT API (or any LLM API you choose), the AI:
-
-✏️ Suggests CV bullet points tailored to the job
-
-📨 Generates a personalized cover letter
-
-📊 Provides competitiveness insights and how well you match the role
-
-📚 Application Tracker
-
+### 📚 **Application Tracker**
 Never lose track of where you applied:
+- ✔️ Save each job with one click
+- 📅 Store status updates (applied, interview, rejected, etc.)
+- 🔗 Sync automatically with **Google Sheets** for a portable database
+- 📁 Use the Sheet as a dashboard for filtering & analytics
 
-✔️ Save each job with one click
-
-📅 Store status updates (applied, interview, rejected, etc.)
-
-🔗 Sync automatically with Google Sheets for a portable database
-
-📁 Use the Sheet as a dashboard for filtering & analytics
-
-☁️ Cloud Sync
-
+### ☁️ **Cloud Sync**
 Your application history is stored in a connected Google Sheet:
+- 🔄 Accessible from any device
+- 🔐 You own all your data
+- 🧩 Easy to export, analyze, or connect to other tools
 
-🔄 Accessible from any device
+---
 
-🔐 You keep ownership of the data
+## 🧱 Architecture Overview
 
-🧩 Easy to export, analyze, or connect to other tools
-
-🧱 Architecture Overview
+```text
 Browser Extension
       │
       ├── Content Script → Reads job posting & extracts text
@@ -58,39 +47,41 @@ Browser Extension
       │
       └── Google Sheets API → Stores job applications
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Browser extension APIs (Chrome / Firefox / Edge compatible)
+- Browser extension APIs (Chrome / Firefox / Edge)
 
-JavaScript / TypeScript
+- JavaScript / TypeScript
 
-ChatGPT API (or OpenAI API compatible models)
+- ChatGPT API / OpenAI API
 
-Google Sheets API
+- Google Sheets API
 
-Optional: Firebase, Supabase, or other backends
+- (Optional) Firebase or Supabase for additional storage
 
-🎯 Roadmap
+## 🎯 Roadmap
 
-🔐 OAuth login with Google
+- 🔐 OAuth login with Google
 
-🧠 Smart “match score” for each job
+- 🧠 Smart “match score” for each job
 
-🎨 UI panel redesign
+- 🎨 UI panel redesign
 
-📝 CV keyword analysis upload tool
+- 📝 CV keyword analysis upload tool
 
-📊 Google Sheets dashboard templates
+- 📊 Google Sheets dashboard templates
 
-🌐 Support for multiple job boards
+- 🌐 Support for multiple job boards
 
-📦 Publish on Chrome Web Store
+- 📦 Publish on Chrome Web Store
 
-🤝 Contributing
+- 🤝 Contributing
 
-Contributions are welcome!
-Feel free to open Issues or PRs for features, bugs, or ideas.
+## Contributions are welcome! Feel free to open Issues or PRs for features, bugs, or ideas.
 
-📄 License
+### 📄 License
 
-MIT License — free to use, modify, and distribute.
+- MIT License — free to use, modify, and distribute.
+
+
+Want me to add screenshots, badges, a logo, or installation instructions?
